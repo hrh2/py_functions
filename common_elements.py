@@ -9,5 +9,3 @@ def common_elements(list1, list2):
         x += 1
     return new_list
 
-
-
