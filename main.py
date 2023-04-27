@@ -2,7 +2,7 @@ from word_reversing import reversing
 from finding_total import addition
 from common_elements import common_elements
 from char_frenquency import character_frequency
-
+from long_words import words_with_more_chars
 # function which returns a reversed word
 print(reversing("words of a man"))
 
@@ -15,3 +15,6 @@ print(common_elements([12, 47, 283, 38, 1, 1, 23], [2, 12, 1, 47]))
 
 # finding the frequency of a character in python
 print(character_frequency('hello world'))
+
+# finding words with more than 5 characters
+print(words_with_more_chars(["hope", "driving", "Muhire", "pi", "world"]))

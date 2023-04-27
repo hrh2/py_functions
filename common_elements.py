@@ -8,4 +8,3 @@ def common_elements(list1, list2):
             new_list.append(list1[x])
         x += 1
     return new_list
-
